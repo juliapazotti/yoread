@@ -1,0 +1,5 @@
+c:\users\julia\documents\visual studio 2012\Projects\yoreadsolution\yoread\bin\yoread.dll
+c:\users\julia\documents\visual studio 2012\Projects\yoreadsolution\yoread\bin\yoread.pdb
+c:\users\julia\documents\visual studio 2012\Projects\yoreadsolution\yoread\obj\Debug\yoread.csprojResolveAssemblyReference.cache
+c:\users\julia\documents\visual studio 2012\Projects\yoreadsolution\yoread\obj\Debug\yoread.dll
+c:\users\julia\documents\visual studio 2012\Projects\yoreadsolution\yoread\obj\Debug\yoread.pdb

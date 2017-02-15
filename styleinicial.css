@@ -1,0 +1,106 @@
+/* TOPO */
+#topo {
+	width: 100%;
+	height: 80px;
+	background-color: #8b6b99;
+	position: fixed;
+	margin-top: -100px;
+	margin-left: -8px;
+}
+
+#logo {
+	margin-top:-48px;
+	margin-left: -50px;
+	color: #ffffff;
+	font-family: "Cedarville Cursive", cursive; 
+	font-size: 43px;
+	text-align: center;
+}
+
+/* MEIO */
+/* QUADROS */
+#quadros {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 20px;
+	border: 3px solid #8b6b99;
+
+}
+
+#quadros2 {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 460px;
+	border: 3px solid #8b6b99;
+
+}
+
+#quadros3 {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 860px;
+	border: 3px solid #8b6b99;
+}
+
+#quadros4 {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 20px;
+	border: 3px solid #8b6b99;
+}
+
+#quadros5 {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 440px;
+	border: 3px solid #8b6b99;
+}
+
+#quadros6 {
+	width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	border-radius: 4%;
+	margin-left: 860px;
+	border: 3px solid #8b6b99;
+}
+
+.titulosinopse {
+	color: #25a2c3;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "Arial";
+	
+}
+
+.sinopse {
+	color: #727a82;
+	font-size: 1em;
+	text-align: justify;
+	font-family: "Arial";
+}
+
+.autor {
+	color: #25a2c3;
+	font-size: 0.8em;
+	text-align: justify;
+	font-family: "Arial";
+	margin-left: 230px;
+	margin-top: -10px;
+}
+
+.texto {
+	width: 330px;
+	height: 400px;
+	margin-left: 24px;
+}
