@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="banner.jpg" />
-    <Content Include="icon.png" />
     <Content Include="index.aspx" />
     <Content Include="inicial.aspx" />
     <Content Include="login.aspx" />

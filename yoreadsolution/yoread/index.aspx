@@ -18,7 +18,7 @@
 			</div>
 			<div id = "botao">
 				<div id = "posibotao">
-					<a id = "linkbotao" href="login.html">Entrar</a>
+					<a id = "linkbotao" href="login.aspx">Entrar</a>
 				</div>
 			</div>
 		</div>

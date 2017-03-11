@@ -41,7 +41,7 @@
     		<input type="text" class="formulario" id ="tamquadrado5" name="confirma"/>
 			<div class = "botao">
 				<div class = "posibotao">
-					<a class = "linkbotao" href="inicial.html">Inscrever-me</a>
+					<a class = "linkbotao" href="inicial.aspx">Inscrever-me</a>
 				</div>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
     		<input type="text" class="formulario" id ="tamquadrado7" name="senha"/>
 			<div class = "botao2">
 				<div class = "posibotao2">
-					<a class = "linkbotao2" href="inicial.html">Entrar</a>
+					<a class = "linkbotao2" href="inicial.aspx">Entrar</a>
 				</div>
 			</div>
 		</div>
