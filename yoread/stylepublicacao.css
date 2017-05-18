@@ -79,6 +79,27 @@
 	text-align: justify;
 	font-family: "Arial";
 }
+/*----------botao--------*/
+#botao {
+	width: 140px;
+	height: 38px;
+	border-radius: 5%;
+	border:0.6px solid #8b6b99;
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: -20px;
+}
+
+#posibotao {
+	margin-top: 10px;
+}
+
+#linkbotao {
+	color: #8b6b99;
+	text-decoration: none;
+	font-family: "Arial";
+	background-color: #ffffff;
+}
 
 
 
