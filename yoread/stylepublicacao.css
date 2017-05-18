@@ -60,6 +60,7 @@
 	font-size: 1.5em;
 	text-align: center;
 	font-family: "Arial";
+	margin-left: -1020px;
 }
 
 .autorcoment {
@@ -84,52 +85,24 @@
 /* div meio */
 .divsinopse {
 	width: 600px;
-	height: 570px;
+	height: 460px;
 	background-color: #ffffff;
 	border-radius: 4%;
 	border: 3px solid #8b6b99;
 	margin-top: 100px;
-	margin-left: 30px;	
+	margin-left: 320px;	
 	
 }
 
 .divcomentarios {
-	width: 570px;
-	height: 570px;
+	width: 1220px;
+	height: 430px;
 	background-color: #ffffff;
 	border-radius: 4%;
 	border: 3px solid #ffffff;
-	margin-top: -575px;
-	margin-left: 680px;	
+	margin-left: 20px;	
+	margin-top: 20px;
 	
-}
-
-/*linha*/
-#linhameio {
-	width: 0.5px;
-	height: 470px;
-	margin-left: 657px;
-	margin-top: -520px;
-	background-color: #8b6b99;
-	background-position: fixed;
-}
-
-#linha1 {
-	width: 600px;
-	height: 0.5px;
-	margin-left: 670px;
-	margin-top: -145px;
-	background-color: #8b6b99;
-	background-position: fixed;
-}
-
-#linha2{
-	width: 600px;
-	height: 1px;
-	margin-left: 670px;
-	margin-top: -160px;
-	background-color: #8b6b99;
-	background-position: fixed;
 }
 
 /*posição comentarios*/
