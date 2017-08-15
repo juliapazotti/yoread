@@ -3,8 +3,10 @@
 <html>
 	<head>
 		<title>Yoread</title>
-		<!--link rel="stylesheet" href="stylelogin.css"/-->
+		<link rel="stylesheet" href="stylelogin.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+		<meta charset="utf-8">
+		
 	</head>
 	<body>
 		<!-- topo -->
@@ -35,11 +37,11 @@
 				</br>
 				</br>
 				<label for="senha">Senha</label>
-	    		<input type="text" class="formulario" id ="tamquadrado4" name="senha"/>
+	    		<input type="password" class="formulario" id ="tamquadrado4" name="senha"/>
 				</br>
 				</br>
 				<label for="confsenha">Confirmação da senha</label>
-	    		<input type="text" class="formulario" id ="tamquadrado5" name="confirma"/>
+	    		<input type="password" class="formulario" id ="tamquadrado5" name="confirma"/>
 				<div class = "botao">
 					<div class = "posibotao">
 						<button type="submit" class = "linkbotao">Inscrever-me</button>
@@ -55,7 +57,7 @@
 		
 		<!-- login -->
 		<form action="php/login.php" id="login" role="form" method="post">
-			<div id = "login">
+			<div id = "logindiv">
 				<p class = "titulo">Entrar no Yoread</p>
 				<label for="user">Nome de usuário</label>
 	    		<input type="text" class="formulario" id ="tamquadrado6" name="user">
@@ -66,7 +68,7 @@
 
 				<div class = "botao2">
 					<div class = "posibotao2">
-						<button type="submit" class = "linkbotao2" href="inicial.html">Entrar</button>
+						<button type="submit" class = "linkbotao" href="inicial.html">Entrar</button>
 					</div>
 				</div>
 			</div>

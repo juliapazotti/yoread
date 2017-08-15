@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			
-			<div style="float: right; margin: -20px 20px auto">
+			<div style="float: right; margin: -20px 20px auto;">
 				<a href= "perfil.html">
 					<?php echo $username ?>
 				</a>
