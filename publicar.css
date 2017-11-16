@@ -103,20 +103,6 @@ label {
 	background-position: float;
 }
  /*BOTAO*/
-.botao {
-	width: 180px;
-	height: 40px;
-	border-radius: 5%;
-	border:0.1px solid #8b6b99;
-	text-align: center;
-	margin-top: 43px;
-	margin-left: 160px;
-	background-color: #8b6b99;
-}
-
-.posibotao {
-	margin-top: 10px;
-}
 
 .linkbotao {
 	color: #ffffff;
