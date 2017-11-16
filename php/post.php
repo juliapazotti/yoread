@@ -5,10 +5,12 @@
 
 		if(checkValues($_POST['titulosinopse'], $_POST['linkfinanciamento'], $_POST['sinopse']))
 		{
+			session_start();
+			$id = $_SESSION['user']['id'];
 			$titulo = $_POST['titulosinopse'];
 			$link = $_POST['linkfinanciamento'];
 			$sinopse = $_POST['sinopse'];
-			cadastrar($titulo, $link, $sinopse);
+			postar($titulo, $link, $sinopse, $email); 
 		}
 		else {
 			$message = '<h1>Por favor, preencha os campos corretamente.</h1>
@@ -21,28 +23,29 @@
 	}
 
 	function checkValues($username, $senha) {
-		return true;
+		return true; //reescrever que faça sentido
 	}
 
-	function cadastrar($titulo, $link, $sinopse) {
+	function postar($titulo, $link, $sinopse, $fk_user) {
 		$config = new Config();
 		$conexao = $config->conectaBanco();
 
-		$query = "INSERT INTO yoread.publicacao (link, sinopse, titulo, cod_publicacao) VALUES ('".$link."', '".$sinopse."', '".$titulo."', NULL)";
+		$query = "INSERT INTO yoread.publicacao (link, sinopse, titulo, id_user, cod_publicacao) VALUES ('".$link."', '".$sinopse."', '".$titulo."', '".$fk_user."', NULL)";
+		//falta email ali (tem que por no banco)
+		//email_user ali nos values
 
 		$result = mysqli_query($conexao, $query) or die('Invalid query: ' . $conexao->error);
 
 		if($result !== null){
-			session_start();
-			$_SESSION['user']['username'] = $username;
-			$_SESSION['user']['nome'] = $nome;
-			$_SESSION['user']['sobrenome'] = $sobrenome; //fazer salvar o email na pagina do login.php
 			header("Location: ../inicial.php");
 		}
 		else {
-			$message = '<h1>Senha ou username Incorretos.</h1>
-						<h3>Por favor, <a href="index.php">Tente Novamente</a></h3>';
+			$message = '<h1>Houve um erro ao salvar a publicação</h1>
+						<h3>Por favor, <a href="publicar.php">Tente Novamente</a></h3>';
 		}
 		//echo $message;
+
+		//duvida: adicionar email como campo na tabela de publicação?
 	}
 ?>
+
