@@ -91,3 +91,11 @@
 	font-family: "Arial";
 	background-color: #8b6b99;
 }
+
+footer {
+	display: block;
+	position: relative;
+	top: 60px;
+	left: 600px;
+
+}

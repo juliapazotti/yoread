@@ -169,3 +169,12 @@
  .botao-fixo:hover {
 	background-color: #6d5677;
  }
+
+ .botaocoment {
+ 	color: #25a2c3;
+    font-size: 1em;
+    text-align: justify;
+    font-family: "Arial";
+    text-decoration: none;
+
+ }
