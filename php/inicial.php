@@ -77,38 +77,5 @@
 		$conexao->close();
 		?>
 
-		<div class = "quadro4">
-				<div class = "textoconf">
-					<h1 class = "titulosinopse">O poder de amar</h1>
-					<p class = "sinopse">40 rapazes, duas chances de encontrarem um amor ou subirem ao trono. Não será fácil. Elas vão se enganar e a incerteza pode ser questão de desespero. “Há pessoas que amam o poder, e outras que tem o poder de amar." <a class = "lermais" href="publicacao.html">Ler mais...</a></p>
-					<a class = "autor" href="#">Otávio Castanho</a>
-				</div>
-				<div class = "posicon">
-					<a class = "icon" href="#" ><img src = "add.png" title="favoritar" border="none" /></a>
-				</div>
-		</div>
-
-		<div class = "quadro5">
-				<div class = "textoconf">
-					<h1 class = "titulosinopse">O diário de Lauren</h1>
-					<p class = "sinopse">Lauren julga tudo por ser tão simples. Questiona o que acredita ser desconhecido. A perfeição antes era o seu desejo, mas agora, deparando-se com a sua vida, seu desejo não é o mesmo. A simplicidade acabou destruindo que é. Mudando algo certo, para duvidoso. <a class = "lermais" href="publicacao.html">Ler mais...</a></p>
-					<a class = "autor" href="#">Olivia Pinheiro</a>
-				</div>
-				<div class = "posicon">
-					<a class = "icon" href="#" ><img src = "add.png" title="favoritar" border="none" /></a>
-				</div>
-		</div>
-
-		<div class = "quadro6">
-				<div class = "textoconf">
-					<h1 class = "titulosinopse">Desculpas</h1>
-					<p class = "sinopse">“A cada passo para que tenho mais certeza de que aqui não é o meu lugar. Não com ele. Mexo minha boca dizendo calmamente desculpa. Sem esperar para a sua resposta, pego parte do vestido que está no chão e corro o mais rápido possível para fora da igreja. Posso imaginar o desespero da minha mãe em vem sua filha amada fugir do próprio casamento. ” <a class = "lermais" href="publicacao.html">Ler mais...</a></p>
-					<a class = "autor" href="#">Edinaldo Gaspar</a>
-				</div>
-				<div class = "posicon">
-					<a class = "icon" href="#" ><img src = "add.png" title="favoritar" border="none" /></a>
-				</div>
-		</div>
-
 	</body>
 </html>

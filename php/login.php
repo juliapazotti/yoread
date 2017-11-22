@@ -64,7 +64,7 @@
 			$_SESSION['user']['username'] = $user['username'];
 			$_SESSION['user']['nome'] = $user['nome'];
 			$_SESSION['user']['id'] = $user['id']; 
-			header("Location: ../inicial.php");
+			header("Location: inicial.php");
 			//vai na variavel e procura as colunas da tabela, coloca o que tava na tabela na variável correspondente (email, nome, etc)
 			//armazena isso ai na sessão http
 			//pediu o email pq ele é a chave primaria, e vou precisar dele pra chave estrangeira
