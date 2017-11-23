@@ -63,7 +63,7 @@
 				echo "		<div class = \"textoconf\">";
 				echo "			<h1 class = \"titulosinopse\">".$row["titulo"]."</h1>";
 				echo "			<p class = \"sinopse\">".$row["sinopse"]."";
-				echo "			<a class = \"lermais\" href=\"publicacao.php?id".$row["cod_publicacao"]."\">Ler mais...</a></p>";
+				echo "			<a class = \"lermais\" href=\"../publicacao.html".$row[""]."\">Ler mais...</a></p>";  //cod_publicacao tirei de dentro das aspas
 				echo "			<a class = \"autor\" href=\"#\">".$row["id_user"]."</a>";
 				echo "		</div>";
 				echo "		<div class = \"posicon\">";

@@ -178,3 +178,23 @@
     text-decoration: none;
 
  }
+
+ #comentario {
+ 	width: 600px;
+	color: #666363;
+	font-family: "Arial";
+	font-size: 14px;
+	height: 30px;
+	border: 2px solid #8b6b99;
+	border-radius: 0%;
+	background-color: #FFFFFF;
+
+ }
+
+ #btcomentar{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Arial";
+	background-color: #8b6b99;
+ }
+
